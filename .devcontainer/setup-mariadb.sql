@@ -3,7 +3,7 @@ GRANT ALL PRIVILEGES ON *.* TO 'mariadb'@'%' IDENTIFIED BY 'mariadb';
 
 -- Grant database creation privileges
 --GRANT CREATE, ALTER, DROP ON *.* TO 'mariadb'@'%';
-GRANT CREATE DATABASE ON *.* TO 'mariadb'@'%';
+GRANT CREATE ON *.* TO 'mariadb'@'%';
 
 FLUSH PRIVILEGES;
 
